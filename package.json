@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "description": "description",
   "main": "app.js",
+  
+  "engines": {
+    "node": "14.x"
+  },
   "scripts": {
-    "start": "node app"
+    "start": "vercel dev",
+    "deploy": "vercel deploy --prod"
   },
   "author": "",
   "license": "ISC",
